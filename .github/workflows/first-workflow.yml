@@ -14,3 +14,9 @@ jobs:
       - name: Step Two
         run: echo "Bye"
           
+
+      - name: Step Three
+        run: |
+          echo "Hello"
+          echo "Second Line"
+          echo "Third Line"
