@@ -1,0 +1,11 @@
+name: Workflow with Events1
+
+on: [push, workflow_dispatch]
+  
+jobs:
+  first-job:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Step One
+        run: echo "step one"
