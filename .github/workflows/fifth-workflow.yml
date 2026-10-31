@@ -1,0 +1,17 @@
+name: Workflow with Events3
+
+on: 
+  push: 
+      branches-ignore:
+        -main
+        
+  
+jobs:
+  first-job:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Step One
+        run: echo "Code pushed to main branch"
+      - name: Step Two
+        run: echo "Workflow executed successfully"
