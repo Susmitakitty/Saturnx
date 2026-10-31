@@ -1,6 +1,7 @@
 name: Workflow with Events2
 
-on: push:
+on: 
+  push: 
       branches:
         -main
   
